@@ -48,7 +48,8 @@ public class TwoSum2
 	}
 	static int binsearch(int [] arr, int start, int end, int target)
 	{
-		if (end > start)//记住这个先决条件 不然一直忘记！！！
+		if (end > start)//the standard condition!!!
+		//记住这个先决条件 不然一直忘记！！！
 		{
 			int mid = (start + end)/2;
 			if (target == arr[mid])
