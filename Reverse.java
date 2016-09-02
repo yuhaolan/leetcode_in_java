@@ -3,8 +3,11 @@ Given an input string s, reverse the string word by word.
 For example, given s = "the sky is blue", return "blue is sky the".
 */
 import java.io.*;
+//java \\s+ represents one or more spaces
 //java \\s+ 表示 有一个或者很多个空格
+//alert the head and tail must have no spaces
 //注意 首位和尾数 不能有空格
+//array's length is array.length
 //数组的length 的表示是  parts.length
 //string length is  string.length()
 //It is recommended to use StringBuilder whenever possible because it is faster than StringBuffer.
