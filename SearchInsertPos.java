@@ -17,7 +17,7 @@ Here are few examples.
 //		那么这时候 比较 target 和 起点 和 终点的大小， 如果比起点大， 那么插入的index应该在终点，如果不是，那么应该在起点
 //
 //
-//
+//because the array have been sorted  so use BINARY SEARCH    the running time is LOG(N)
 //Method binary search
 
 public class SearchInsertPos
