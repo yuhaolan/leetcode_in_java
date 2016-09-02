@@ -28,8 +28,8 @@ s3. Number.
 s4. Optional trailing whitespaces (optional).
 */
 
-	//注意  用if i＝＝n   判断 全部为空格  符号等情况  所以每次完 记得检查
-	//关于检查数字 分成三类  整数  小数  和 科学表示方法
+	//Numbers are divided into three parts: integer, float and natural number
+
 	public static boolean check(String s)
 	{
 		int n = s.length();
