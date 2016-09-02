@@ -63,6 +63,8 @@ public class Atoi
 
 				//check the max and min
 				//注意 极值应该除10！！！，下一个各位数如果大于7  或者 8 那么就会超出范围了
+				//alert!  the MAX_VALUE needs to be divided by 10 and if next number is bigger than 7 or 8 that will exceeds the MAX and MIN
+
 				if (flag*result >= Integer.MAX_VALUE/10 && value>7)
 					return Integer.MAX_VALUE;
 
