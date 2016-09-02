@@ -11,6 +11,9 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
 */
 //需要两个变量i j 一个定头一个定尾。 记住 每当j 走到一个重复字符的时候，那么i就需要走到被重复字符的位置。
 //并且i之前所有的字符要转换为false，因为题目要求仅仅找出 子字符串不含重复
+//we need variable i and j. i is used to mark head of the substring and j is used to mark tail of the substring
+//when j goes to the repeated char then i must update and goes to the char that is repeated by j.
+//besides all the former characters need to be update false before i
 import java.util.*;
 import java.lang.*;
 
