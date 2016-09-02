@@ -44,6 +44,7 @@ public class Atoi_Better
 		//注意啊！！  i 小于 s.length() 要放在前面！！！！记住啊  所有的string 操作 必须 记住 啊！！！！！
 		//注意啊！！  i 小于 s.length() 要放在前面！！！！记住啊  所有的string 操作 必须 记住 啊！！！！！
 		//注意啊！！  i 小于 s.length() 要放在前面！！！！记住啊  所有的string 操作 必须 记住 啊！！！！！
+		//alert!! i < s.length() must be putted in the front place!!!
 
 		
 		//optional plus or minus
